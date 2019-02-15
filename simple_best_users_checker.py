@@ -1,8 +1,6 @@
 # coding: UTF-8
 
-import string
 from collections import defaultdict, OrderedDict
-from random import randint
 
 
 def id_best_users(*args):
@@ -25,6 +23,8 @@ def id_best_users(*args):
 
 if __name__ == '__main__':
     import cProfile
+    import string
+    from random import randint
 
     def generate_test_list(users_amount, purchases_amount, months__amount):
         uppercase_letters = string.ascii_uppercase
